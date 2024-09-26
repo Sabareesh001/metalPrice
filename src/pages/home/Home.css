@@ -1,0 +1,18 @@
+.homeContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.metalPriceCardsContainer{
+    display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(30vw,100px));
+  justify-content: space-around;
+  padding: 20px;
+  font-size: 10px;
+    width: 100%;
+}

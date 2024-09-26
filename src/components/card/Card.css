@@ -1,0 +1,27 @@
+.cardContainer{
+   color: white;
+   display: flex;
+   border-radius: 10px;
+   flex-direction: column;
+   align-items: center;
+   background-color: black;
+   padding: 20px;
+   transition: 2s;
+}
+
+.cardContainer:hover{
+    box-shadow: white 0px 0px 100px;
+    cursor: pointer;
+}
+
+.cardImageContainer{
+    height:100px;
+    width: 100%;
+}
+
+.cardImageContainer img{
+    height: 100%;
+    width: 100%;
+    object-fit:scale-down;
+}
+
