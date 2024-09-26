@@ -12,7 +12,7 @@ return (
             <div className='form-container'>
                 
                 <div>
-                    <h2 >CONTACT US</h2>
+                    <h2 > CONTACT US</h2>
                 
                 </div>
          <br/>
