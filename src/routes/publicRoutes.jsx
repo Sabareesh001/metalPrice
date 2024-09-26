@@ -1,4 +1,5 @@
 import About from "../pages/about/About";
+import Contact from "../pages/contact/contact";
 import Home from "../pages/home/Home";
 
 const publicRoutes = [
@@ -8,8 +9,8 @@ const publicRoutes = [
   },
   { path: "/about", element: <About /> },
   {
-    path: "*",
-    element: <></>,
+    path: "/contact",
+    element: < Contact/>,
   },
 ];
 
