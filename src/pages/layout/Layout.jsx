@@ -10,6 +10,7 @@ const Layout= ()=>{
               <div className='menuButtonsContainer'>
                   <button onClick={()=>{navigate('/metals')}}>Metals</button>
                   <button onClick={()=>{navigate('/about')}}>About</button>
+                  <button onClick={()=>{navigate('/contact')}}>Contact</button>
               </div>
             </div>
         </div>
